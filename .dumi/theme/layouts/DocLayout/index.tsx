@@ -94,17 +94,6 @@ const DocLayout: FC = () => {
         <Content>
           <article>
             {outlet}
-            {/* reactflow_bottom */}
-            <Adsense
-              className="adsbygoogle adsbygoogle-bottom"
-              style={{ display: 'block'}}
-              data-ad-client="ca-pub-5641491107630454"
-              data-ad-slot="5924967832"
-              data-page-url="https://www.nablepart.com"
-              data-override-format="true"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            />
           </article>
           <ContentFooter />
           <Footer />
